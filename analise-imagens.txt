@@ -1,0 +1,8 @@
+1. Por que algumas imagens são maiores que outras?
+Imagens maiores contêm mais pacotes, bibliotecas  ou ferramentas de desenvolvimento desnecessárias para a execução final. Imagens menores (como as alpine) usam distribuições Linux mínimas.
+
+2. O que significa a tag "alpine"?
+A tag alpine indica que a imagem usa a distribuição Alpine Linux, que é uma distribuição baseada em musl libc, resultando em imagens significativamente menores.
+
+3. Qual a importância do versionamento?
+O versionamento (tags) garante a reprodutibilidade e estabilidade do ambiente. Fixar uma versão específica (e.g., python:3.11-slim) impede que atualizações inesperadas da imagem base quebrem a aplicação.
